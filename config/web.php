@@ -24,13 +24,13 @@ $config = [
         ],
         'db' => $db,
 //        'queue' => $queue,
-//        'redis' => $redis,
-//        'user' => [
-//            'identityClass' => 'app\models\User', // User must implement the IdentityInterface
-//            'enableAutoLogin' => true,
-//            // 'loginUrl' => ['user/login'],
-//            // ...
-//        ],
+        'redis' => $redis,
+        'user' => [
+            'identityClass' => 'app\models\User', // User must implement the IdentityInterface
+            'enableAutoLogin' => true,
+            // 'loginUrl' => ['user/login'],
+            // ...
+        ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
