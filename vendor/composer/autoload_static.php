@@ -150,6 +150,7 @@ class ComposerStaticInit24e0769e554cb63e274519265e01c4fc
             'Prophecy\\' => 9,
             'PhpOffice\\PhpSpreadsheet\\' => 25,
             'PhpAmqpLib\\' => 11,
+            'Pheanstalk\\' => 11,
         ),
         'O' => 
         array (
@@ -389,6 +390,10 @@ class ComposerStaticInit24e0769e554cb63e274519265e01c4fc
         'PhpAmqpLib\\' => 
         array (
             0 => __DIR__ . '/..' . '/php-amqplib/php-amqplib/PhpAmqpLib',
+        ),
+        'Pheanstalk\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/pda/pheanstalk/src',
         ),
         'Opis\\Closure\\' => 
         array (

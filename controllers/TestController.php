@@ -18,4 +18,6 @@ class TestController extends Controller
     {
         return Helper::msg(1, 'success', TestService::service()->getUserInfo());
     }
+
+
 }
